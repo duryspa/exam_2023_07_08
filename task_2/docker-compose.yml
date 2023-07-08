@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  bot:
+    env_file: .env
+    container_name: test_bot
+    build:
+      context: .
+      dockerfile: Dockerfile
+      
